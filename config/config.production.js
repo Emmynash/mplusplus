@@ -9,7 +9,7 @@ const config = {
         "password": process.env.DATABASE_PASSWORD,
         "database": process.env.DATABASE_NAME,
         "host": process.env.DATABASE_HOST,
-        "dialect": 'mysql' || 'sqlite' || 'postgres' || 'mssql'
+        "dialect": 'mysql'
     },
     pubsubDriver: process.env["PUB_SUB_DRIVER"] || "redis", //{SNS}
 };
