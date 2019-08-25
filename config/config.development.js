@@ -11,7 +11,7 @@ const config = {
         "url": process.env.DATABASE_URL,
         options: {
             timeout: 50000,
-            "dialect": "mysql' || 'sqlite' || 'postgres' || 'mssql"
+            "dialect": 'mysql' || 'sqlite' || 'postgres' || 'mssql'
         }
     },
     pubsubDriver: process.env["PUB_SUB_DRIVER"] || "redis", //{SNS}
