@@ -9,7 +9,7 @@ const config = {
     port: process.env["PORT"] || 4000,
 
     db: {
-        "url": process.env.DATABASE_URL,
+        "url": process.env.CLEARDB_DATABASE_URL,
         options: {
             timeout: 50000,
             "dialect": 'mysql'
