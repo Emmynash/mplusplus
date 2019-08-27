@@ -9,8 +9,8 @@ const config = {
     port: process.env["PORT"] || 4000,
 
     db: {
-        // "url": process.env.DATABASE_URL,
-        "url": 'mysql://b8cb1fe21a847a:11f5b200@us-cdbr-iron-east-02.cleardb.net/heroku_0db1e198211f64f?reconnect=true',
+        "url": process.env.DATABASE_URL,
+        // "url": 'mysql://b8cb1fe21a847a:11f5b200@us-cdbr-iron-east-02.cleardb.net/heroku_0db1e198211f64f?reconnect=true',
         options: {
             timeout: 50000,
             "dialect": 'mysql'
