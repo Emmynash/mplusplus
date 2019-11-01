@@ -21,7 +21,7 @@
         "moment-timezone": "^0.5.25",
         "mysql2": "^1.6.5",
         "nodemon": "^1.19.0",
-        "sequelize": "^5.8.6",
+        "sequelize": "^5.15.1",
         "unique-key": "0.0.6",
         "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.9.0"
