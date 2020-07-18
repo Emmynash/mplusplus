@@ -17,7 +17,7 @@
         "express": "^4.16.4",
         "express-graphql": "^0.8.0",
         "graphql": "^14.3.0",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.19",
         "moment-timezone": "^0.5.25",
         "mysql2": "^1.6.5",
         "nodemon": "^1.19.0",
