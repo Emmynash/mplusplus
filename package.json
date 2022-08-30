@@ -18,7 +18,7 @@
         "express-graphql": "^0.8.0",
         "graphql": "^14.3.0",
         "lodash": "^4.17.11",
-        "moment-timezone": "^0.5.25",
+        "moment-timezone": "^0.5.35",
         "mysql2": "^1.6.5",
         "nodemon": "^1.19.0",
         "sequelize": "^5.8.6",
